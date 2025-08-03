@@ -462,7 +462,7 @@
     }
     return e;
   }}, methods: {...Object(d.d)(["hidePlayer"])}}, De = qe, Ye = (o("52b4"), Object(h.a)(De, Fe, Se, false, null, "631059e4", null)), He = Ye.exports, Ve = {name: "Home", components: {FAQ: Z, PlayerLoot: He, Filters: _e, Upload: ze}, computed: {...Object(d.e)(["filters", "initialized", "loadingBin", "blockUpload"]), ...Object(d.c)(["sortedFilteredPlayers", "filteredPlayers", "hasFiles"])}, methods: {...Object(d.b)(["upload"])}}, Ge = Ve, Xe = (o("7c42"), Object(h.a)(Ge, V, G, false, null, null, null)), Je = Xe.exports;
-  const Qe = new i.a({base: "/", mode: "history", routes: [{path: "/:bin?", component: Je}, {path: "*", redirect: "/"}]});
+  const Qe = new i.a({base: "/ao-loot-logger-viewer/", mode: "history", routes: [{path: "/:bin?", component: Je}, {path: "*", redirect: "/"}]});
   var We = Qe, Ke = {name: "App", components: {Footer: p, Logo: B}, computed: {...Object(d.e)(["blockSharing", "blockUpload", "chestLogs", "exporting", "files", "filters", "hidePlayers", "initialized", "loadingBin", "loadingItems", "lootLogs", "sharing", "showPlayers"]), ...Object(d.c)(["filteredPlayers", "hasFiles"]), showProgressBar() {
     return !!this.sharing || (!!this.loadingBin || !this.initialized && this.loadingItems);
   }}, methods: {...Object(d.d)(["reset", "setBin", "setBlockSharing", "setBlockUpload", "setInitialized", "setLoadingBin", "setLoadingItems"]), ...Object(d.b)(["upload"]), dragover() {
